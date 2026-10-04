@@ -1,0 +1,1 @@
+import{t as e}from"./site.CKvxOJ8m.js";var t=document.querySelector(`[data-sticky-bar]`),n=document.getElementById(e.form);t&&n&&`IntersectionObserver`in window&&new IntersectionObserver(([e])=>{t.classList.toggle(`is-hidden`,e?.isIntersecting??!1)}).observe(n);

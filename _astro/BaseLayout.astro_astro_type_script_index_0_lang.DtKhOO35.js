@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./tracking.BVYEGYgH.js";document.addEventListener(`click`,i=>{let a=i.target instanceof Element?i.target.closest(`[${r.method}]`):null;if(!a)return;let o=a.getAttribute(r.method),s=a.getAttribute(r.location);n(o)&&t(s)&&e({event:`contact_click`,method:o,location:s})});

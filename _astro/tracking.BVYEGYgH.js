@@ -1,0 +1,1 @@
+var e=[`phone`,`instagram`,`email`],t=[`hero`,`sticky_bar`,`cta_band`,`profile`,`form`,`contact`],n={method:`data-track-contact`,location:`data-track-location`};function r(t){return typeof t==`string`&&e.includes(t)}function i(e){return typeof e==`string`&&t.includes(e)}function a(e){window.dataLayer=window.dataLayer??[],window.dataLayer.push(e)}export{a as i,i as n,r,n as t};
